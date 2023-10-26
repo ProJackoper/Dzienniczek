@@ -1,0 +1,45 @@
+project-root-directory/
+|-- assets/
+|   |-- css/
+|   |   |-- styles.css
+|   |
+|   |-- js/
+|       |-- main.js
+|
+|-- includes/
+|   |-- db.php (plik obsługujący połączenie z bazą danych)
+|
+|-- pages/
+|   |-- register.php
+|   |-- login.php
+|   |-- dashboard.php
+|
+|-- templates/
+|   |-- header.php
+|   |-- footer.php
+|
+|-- .gitignore (plik ignorujący pliki i katalogi, które nie powinny być śledzone przez Git)
+|-- index.php (strona główna, przekierowująca do strony rejestracji lub logowania)
+|-- README.md (plik z dokumentacją projektu)
+
+
+
+Katalogi:
+
+    assets: Tutaj trzymaj wszystkie pliki CSS, JS i inne zasoby, które są używane na stronie internetowej.
+
+    includes: Ten katalog może zawierać pliki PHP, które są współdzielone przez wiele stron, na przykład plik obsługujący połączenie z bazą danych.
+
+    pages: W tym katalogu znajdują się wszystkie strony PHP, takie jak rejestracja, logowanie, i inne strony związane z Twoją aplikacją.
+
+    templates: Katalog ten może zawierać pliki PHP, które definiują struktury wspólne dla różnych stron, takie jak nagłówek (header.php) i stopka (footer.php).
+
+Pliki:
+
+    index.php: To jest plik główny, który może przekierować użytkownika do strony rejestracji lub logowania, w zależności od stanu zalogowania.
+
+    .gitignore: Ten plik zawiera listę plików i katalogów, które Git powinien ignorować podczas przesyłania zmian na repozytorium.
+
+    README.md: Plik z dokumentacją projektu, zawierający informacje o tym, jak uruchomić aplikację, jak działać z bazą danych, itp.
+
+Ta struktura ma na celu zachowanie porządku w Twoim projekcie, ułatwiając zarządzanie plikami i odnajdywanie odpowiednich elementów projektu. Pamiętaj, że jest to tylko przykład i możesz dostosować strukturę plików do własnych potrzeb i preferencji.
